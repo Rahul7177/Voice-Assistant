@@ -61,11 +61,6 @@ if __name__=="__main__":
             print(results)
             speak(results)
             
-
-        elif 'open youtube' in query:
-            query=query.replace('open',"")
-            webbrowser.open("youtube.com")
-
         elif 'open google' in query:
             query=query.replace('open',"")
             webbrowser.open("google.com")
@@ -83,7 +78,7 @@ if __name__=="__main__":
             speak(strTime)
             
         elif 'open code' in query:
-            codepath="C:\\Users\\rahul\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            codepath="C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
             os.startfile(codepath)
 
         elif 'open firefox' in query:
